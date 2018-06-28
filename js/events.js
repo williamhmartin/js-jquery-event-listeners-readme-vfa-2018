@@ -20,7 +20,6 @@ $(document).on("keydown", function(key){
   
 function submitIt(){
   $("form").on("submit", function() {
-  $( "input:first" ).val() === "correct") {
     alert('your form is going to be submitted now');
 })
 }
