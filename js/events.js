@@ -5,13 +5,13 @@ $('p').on("click", function getIt(){
 });
 
 $('img').on("load", function frameIt(){
-    'img.tasty'
+    'img.tasty';
 });
 
 $(document).on("keydown", function pressIt(){
-  if(key.which == 71){
-      alert('g was pressed');
-  }
+  if(key.which == 71) 
+  
+});
   
   $("form").on("submit", function submitIt() {
   if ($( "input:first" ).val() === "correct") {
@@ -21,6 +21,7 @@ $(document).on("keydown", function pressIt(){
   alert("you entered the wrong value");
   return;
 });
+
 // call functions here
 
-});
+
