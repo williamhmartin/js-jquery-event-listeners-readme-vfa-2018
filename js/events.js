@@ -15,12 +15,13 @@ function frameIt() {
  function pressIt(key) {
 $(document).on("keydown", function(key){
   if(key.which == 71);
+  
   });
  }
   
 function submitIt(){
   $("form").on("submit", function() {
-    alert('your form is going to be submitted now');
+    alert('Your form is going to be submitted now');
 })
 }
 $(document).ready(function(){
