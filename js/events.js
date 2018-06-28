@@ -1,8 +1,11 @@
 //define functions here
 
-function getIt($('p').on("click", function (){
+function getIt() {
+  $('p').on("click", function (){
     alert('Hey!')
-});
+}) 
+}
+
 
 $('img').on("load", function frameIt(){
     'img.tasty';
