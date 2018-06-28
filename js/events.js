@@ -1,12 +1,13 @@
 //define functions here
-
-$('p').on("click", function getIt(){
+function getIt(){
     alert('Hey!')
-});
-
-$('img').on("load", function frameIt(){
+}
+function frameIt(){
     'img.tasty';
 });
+$('p').on("click", function getIt())
+
+$('img').on("load", 
 
 $(document).on("keydown", function pressIt(key){
   if(key.which == 71); 
