@@ -3,7 +3,7 @@ $('p').on("click", function getIt(){
     alert('Hey!')
 });
 $('img').on("load", function frameIt(){
-    img
+    'img'='img.tasty'
 });
 $(document).ready(function(){
 
