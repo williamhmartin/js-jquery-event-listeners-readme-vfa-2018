@@ -21,7 +21,7 @@ $(document).on("keydown", function(key){
   
 function submitIt(){
   $("form").on("submit", function() {
-    alert('Your form is going to be submitted now');
+    alert("Your form is going to be submitted now.");
 })
 }
 $(document).ready(function(){
