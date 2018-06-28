@@ -2,7 +2,7 @@
 $('p').on("click", function getIt(){
     alert('Hey!')
 });
-$('img').on("load", function frameIt(){
+$('img').addclass("load", function frameIt(){
     'img'='img.tasty'
 });
 $(document).ready(function(){
