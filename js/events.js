@@ -2,8 +2,8 @@
 $('p').on("click", function getIt(){
     alert('Hey!')
 });
-$('img.tasty').on("load", function frameIt(){
-
+$('img').on("load", function frameIt(){
+    img
 });
 $(document).ready(function(){
 
