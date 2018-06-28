@@ -9,7 +9,9 @@ $(document).on("keydown", function pressIt(){
     'img.tasty'
 });
 $(document).ready(function(){
-
+  if(key.which == 71){
+      alert('s was pressed');
+  }
 // call functions here
 
 });
