@@ -9,9 +9,8 @@ $('img').on("load", function frameIt(){
 });
 
 $(document).on("keydown", function pressIt(){
-  if(key.which == 71) 
-  
-});
+  if(key.which == 71); 
+  });
   
   $("form").on("submit", function submitIt() {
   if ($( "input:first" ).val() === "correct") {
