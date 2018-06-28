@@ -26,5 +26,4 @@ $(document).on("keydown", function pressIt(key){
 getIt();
 frameIt();
 pressIt();
-submitIt()
-;
+submitIt();
