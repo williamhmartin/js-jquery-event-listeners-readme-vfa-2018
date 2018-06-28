@@ -6,10 +6,11 @@ function getIt() {
     }) 
 }
 
-
-$('img').on("load", function frameIt(){
+function frameIt(){
+$('img').on("load", function{
     'img.tasty';
-});
+})
+}
 
 $(document).on("keydown", function pressIt(key){
   if(key.which == 71); 
