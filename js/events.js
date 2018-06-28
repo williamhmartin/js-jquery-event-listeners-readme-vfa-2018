@@ -8,7 +8,7 @@ $('img').on("load", function frameIt(){
     'img.tasty';
 });
 
-$(document).on("keydown", function pressIt(){
+$(document).on("keydown", function pressIt(key){
   if(key.which == 71); 
   });
   
