@@ -20,10 +20,13 @@ $(document).on("keydown", function pressIt(key){
   alert("you entered the wrong value");
   return;
 });
-
-// call functions here
+$(document).ready(function(){
 
 getIt();
 frameIt();
 pressIt();
 submitIt();
+
+});
+
+
